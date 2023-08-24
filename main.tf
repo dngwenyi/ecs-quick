@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create an ECS cluster
 resource "aws_ecs_cluster" "my_cluster" {
-  name = "karo-ecs-cluster"  
+  name = "mani-ecs-cluster"  
 }
 
 # Create a task definition
